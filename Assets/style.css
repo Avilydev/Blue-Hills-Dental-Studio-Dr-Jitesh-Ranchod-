@@ -373,6 +373,7 @@ section {
 
 .team-grid {
     display: grid;
+    padding: 0 120px;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
     margin-bottom: 2rem;
@@ -398,7 +399,7 @@ section {
 .team-member h4 {
     font-family: "Raleway", sans-serif;
     font-size: 1.3rem;
-    color: var(--primary-blue);
+    color: var(--dark-text);
     margin-bottom: 0.5rem;
 }
 
@@ -416,7 +417,7 @@ section {
 }
 
 .read-more-btn {
-    background-color: var(--primary-green);
+    background-color: var(--primary-blue);
     color: var(--white);
     padding: 0.75rem 2rem;
     border-radius: 25px;
@@ -424,12 +425,12 @@ section {
     font-weight: 600;
     display: inline-block;
     transition: all 0.3s ease;
-    border: 2px solid var(--primary-green);
+    border: 2px solid var(--primary-blue);
 }
 
 .read-more-btn:hover {
     background-color: transparent;
-    color: var(--primary-green);
+    color: var(--primary-blue);
 }
 
 /* Services Grid */
@@ -490,7 +491,7 @@ section {
 }
 
 .service-link {
-    color: var(--primary-green);
+    color: var(--primary-blue);
     text-decoration: none;
     font-weight: 600;
     display: inline-flex;
