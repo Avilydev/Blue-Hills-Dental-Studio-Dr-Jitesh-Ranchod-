@@ -479,7 +479,7 @@ section {
 .service-content h3 {
     font-family: "Raleway", sans-serif;
     font-size: 1.2rem;
-    color: var(--primary-blue);
+    color: var(--dark-text);
     margin-bottom: 0.75rem;
 }
 
